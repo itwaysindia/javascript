@@ -36,8 +36,9 @@
     //  >, >= <, <=
 
 
-//     let a = 11;
-//     let b = 10;
+//     let a = "Hello";
+//     let b = "hello";
+//     console.log(a == b)
 // // a=b;
 //     console.log(a <= b);
 //     console.log("a =", a);
@@ -60,7 +61,5 @@ let car = {
         company: "Ford",
         Fuel: "deisel",
         Active: true
-
-
 };
-console.log(car);
+ console.log(car);
