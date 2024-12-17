@@ -5,11 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <h1>Welcome to JavaScript</h1>
 
     <br />
+    <!-- old method -->
+    <button onclick="clicked()">Click Me (Old Method)</button>
+    
+    <!-- New Method -->
+    <button id="btn">Click Me (New Method)</button>
+    <br />
+    <button id="stl">Dark/Light</button>
+
+    <div id="hoverDiv" style="width:500px; height: 150px; background-color: beige;">
+      </div>
     <h1 id="title">Basic Concepts</h1>
 <h2>1. Nodes and Elements</h2>
 <b>Node: </b>Everything in the DOM is a node.
@@ -40,6 +51,33 @@
   <li>innerHTML</li>
 </ul>
 
+
+<h3>Changing Attribute</h3>
+  <ul>
+    <li>setAttribute</li>
+    <li>getAttribute</li>
+    <li>removeAttribute</li>
+    </ul>
+
+    <p id="para">Hello, World!</p>
+
+
+    <h3>Changing Styles</h3>
+    <p>- style</p>
+
+    <h3>Adding and removing Elements</h3>
+    <ul>
+      <li>createElement</li>
+      <li>appendChild</li>
+      <li>removeChild</li>
+    </ul>
+
+
+    <h2>Event Handling</h2>
+    <ul>
+      <li>addEventListener</li>
+      <li>removeEventListner</li>
+    </ul>
     
     <script src="js/dom.js"></script>
 </body>
