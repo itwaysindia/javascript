@@ -1,6 +1,15 @@
-.dark{
+/* .dark{
     padding: 20px;
     border: 1px solid black;
     background-color: black;
     color: white;
+} */
+
+.dark{
+    background-color: black;
+    color: white;
+}
+.red{
+    background-color: red;
+    color: yellow;
 }
